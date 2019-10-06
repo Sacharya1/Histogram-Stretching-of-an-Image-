@@ -1,0 +1,31 @@
+function output=Colb(img,X,Y,Sx,Sy,CR,CG,CB,t)
+[rows,cols]=size(img);
+output=img;
+
+
+if X<=0 and X>=rows
+    error('Change the value X');
+elseif X+Sx>=rows
+    error('Change the value of Sx');
+elseif Y<=0 and Y>=cols
+    error('Change the value of Y');
+elseif Y+Sy>=cols
+    error('Change the value of Sy');
+end
+for r=X:X+Sx
+    for c=Y:Y+Sy
+        Red= img(r,c,1);
+        Green= img(r,c,2); 
+        Blue= img(r,c,3);
+        A= Red-CR;
+        B=Green-CG;
+        C=Blue-CB;
+        D=(sqrt(double(A^2+B^2+C^2)));
+        
+       if D>=t
+           output(r,c,1)=255;
+       else output(r,c)=0;
+    end
+    end
+output=uint8(output);
+end

@@ -1,0 +1,10 @@
+baboon.pgm baboon_bi125.pgm binarize 125
+baboon.pgm baboon_roi.pgm Region_of_Interest 50 70 150 200 130
+baboon.pgm baboon_s200.pgm scale 2
+baboon.pgm baboon_s50.pgm scale 0.5
+baboon_roi.pgm baboon_roi1.pgm Region_of_Interest1 225 270 40 100 170
+baboon_roi1.pgm baboon_roi2.pgm Region_of_Interest2 300 170 130 90 230
+Sampad.jpg baboon_Colb.pgm Color_Binarization 50 70 150 200 210 230 190 13
+baboon_Colb.pgm baboon_Colb1.pgm Color_Binarization1 245 270 40 100 210 230 190 17
+baboon_Colb1.pgm baboon_Colb2.pgm Color_Binarization2 300 170 130 90 210 230 190 23
+

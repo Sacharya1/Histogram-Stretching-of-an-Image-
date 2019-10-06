@@ -1,0 +1,22 @@
+lena.pgm baboon_roi.pgm Region_of_Interest 50 70 150 140 110
+baboon_roi.pgm baboon_roi1.pgm Region_of_Interest1 220 270 42 110 160
+baboon_roi1.pgm baboon_roi2.pgm Region_of_Interest2 305 175 15 95 135
+Sampad.jpg Sampad_Colb.ppm Color_Binarization 50 70 150 140 12 12 12 240
+Sampad_Colb.ppm Sampad_Colb1.ppm Color_Binarization1 223 275 110 60 12 12 12 215
+Sampad_Colb1.ppm lena_Colb2.ppm Color_Binarization2 300 350 300 100 12 12 12 200
+lena.pgm baboon_tds.pgm 2D_Smoothing 50 70 150 140 9
+baboon_tds.pgm baboon_tds1.pgm 2D_Smoothing1 225 270 60 100 5
+baboon_tds1.pgm baboon_tds2.pgm 2D_Smoothing2 300 170 73 90 9
+lena.pgm baboon_ods.pgm 1D_Smoothing 50 70 150 200 9
+baboon_ods.pgm baboon_ods1.pgm 1D_Smoothing1 225 270 70 100 5
+baboon_ods1.pgm baboon_ods2.pgm 1D_Smoothing2 300 170 130 90 9
+lena.pgm baboon_eps.pgm Edge_Preserving 50 70 150 200 11 7
+baboon_eps.pgm baboon_eps1.pgm Edge_Preserving1 225 270 10 100 7 2
+baboon_eps1.pgm baboon_eps2.pgm Edge_Preserving2 300 170 130 90 7 5
+lena.ppm baboon_HSG.ppm HSIn 50 70 150 170 100 150 30 250
+baboon_HSG.ppm baboon_HSG1.ppm HSIn1 220 270 120 210 100 150 30 250
+lena.pgm baboon_HSGG.pgm HSGrey 50 70 150 170 100 150 30 250
+baboon_HSGG.pgm baboon_HSGG1.pgm HSGrey1 220 270 42 110 100 150 30 250
+lena.ppm baboon_HSC.ppm HSCol 50 70 150 170 100 150 30 250
+baboon_HSC.ppm baboon_HSC1.ppm HSCol1 220 270 60 110 100 150 30 250
+lena.pgm baboon_HSEC.pgm HSGreyec 50 70 150 170 80 100 150 30 140 250
